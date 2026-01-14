@@ -17,8 +17,9 @@ if st.button('Result'):
   input_data = np.asarray(input_data).reshape(1,-1)
   prediction = model.predict(input_data)
   result = prediction[0]
+  st.balloons()
   
 
 st.success(result)
-st.balloons()
+
 
