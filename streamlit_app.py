@@ -20,4 +20,5 @@ if st.button('Result'):
   
 
 st.success(result)
+st.balloons()
 
